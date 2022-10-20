@@ -21,6 +21,7 @@ public class FibonacciSeries {
 
         //Display fibonacci series up to the limit using recursion
         for(int i=0; i<limitValue; i++) {
+            //Check whether the number is greater than the limit value
             if(fibonacci(i) <= limitValue) {
                 System.out.print(String.format("%d,\t", fibonacci(i)));
             }
