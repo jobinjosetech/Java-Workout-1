@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class trianglePattern {
+public class TrianglePattern {
     public static void main(String a[]) {
         Scanner sc = new Scanner(System.in);
 
